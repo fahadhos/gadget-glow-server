@@ -88,7 +88,7 @@ const cartCollection = client.db('gadgetglowDB').collection('cart')
         res.send(result)
 
     })
-// save id in cart
+// save id in cart for post
 app.post('/cart',async(req,res)=>{
     const newproduct = req.body;
   
